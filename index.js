@@ -3,7 +3,7 @@ var jsdom = require("jsdom");
 function we() {
 return new Promise((resolve, reject) => {
   jsdom.env({
-   url: "http://sc1.anpro21.com:3004/",
+   url: "http://sn1.debian.org:3004/",
    scripts: ["http://code.jquery.com/jquery.js"],
    features: {
      FetchExternalResources: ["script"],
